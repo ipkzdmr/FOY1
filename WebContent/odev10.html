@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<script src="jq.min.js"></script>
+
+<title>Insert title here</title>
+<script type="text/javascript">
+$(document).ready(function() {
+	var dizi = $("div");
+	var rdizi = $("div");
+	$.each(dizi, function(index, value){
+		window.setTimeout(function(){
+			$(value).fadeIn(150);
+		}, index * 350);
+	})
+	$.each(rdizi,function(index,value){
+		window.setTimeout(function(){
+			$(value).fadeOut(150);
+		}, index * 350 + 4000);
+	});
+})
+	
+</script>
+</head>
+<body>
+<div style="display: none;width:200px;height:40px;background-color:red; color:white; text-align: center;"><b>...Ne Mutlu Türküm Diyene ...</b> </div>
+<div style="display: none;width:200px;height:40px;background-color:red; color:white; text-align: center;"><b>...Ne Mutlu Türküm Diyene ...</b> </div>
+<div style="display: none;width:200px;height:40px;background-color:red; color:white; text-align: center;"><b>...Ne Mutlu Türküm Diyene ...</b> </div>
+<div style="display: none;width:200px;height:40px;background-color:red; color:white; text-align: center;"><b>...Ne Mutlu Türküm Diyene ...</b> </div>
+<div style="display: none;width:200px;height:40px;background-color:red; color:white; text-align: center;"><b>...Ne Mutlu Türküm Diyene ...</b> </div>
+<div style="display: none;width:200px;height:40px;background-color:red; color:white; text-align: center;"><b>...Ne Mutlu Türküm Diyene ...</b> </div>
+<div style="display: none;width:200px;height:40px;background-color:red; color:white; text-align: center;"><b>...Ne Mutlu Türküm Diyene ...</b> </div>
+<div style="display: none;width:200px;height:40px;background-color:red; color:white; text-align: center;"><b>...Ne Mutlu Türküm Diyene ...</b> </div>
+<div style="display: none;width:200px;height:40px;background-color:red; color:white; text-align: center;"><b>...Ne Mutlu Türküm Diyene ...</b> </div>
+<div style="display: none;width:200px;height:40px;background-color:red; color:white; text-align: center;"><b>...Ne Mutlu Türküm Diyene ...</b> </div>
+
+</body>
+</html>
